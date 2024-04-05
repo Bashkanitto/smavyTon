@@ -1,0 +1,39 @@
+.body{
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0 auto;
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.mainPageLogo{
+    border-radius: 50px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.mainPageLogo img{
+    border-radius: 50px;
+    width: 90%;
+    height: 90%;
+}
+
+.mainPageProfileLogo{
+    border-radius: 50px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.mainPageProfileLogo img{
+    border-radius: 50px;
+    max-width: 70%;
+    max-height: 70%;
+}
