@@ -53,7 +53,7 @@ body{
     cursor: pointer;
 }
 
-.selected-language::before{
+.selected-language:before{
     content: '';
     display: block;
     width: 32px;
@@ -72,23 +72,29 @@ body{
 
 .dropdown-menu ul li{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .dropdown-menu ul li a{
-    width: 125px;
+    width: 140px;
     display: block;
     padding: 5px 10px;
 }
 
-.selected-language ul li a::before{
+.selected-language ul li a:before{
     content: '';
-    display: block;
+    display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url(https://flagsapi.com/KZ/shiny/32.png);
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 .dropdown-menu ul li a:hover{
     background-color: #f2f2f2;
 }
 
+.kz:before{
+    background-image: url(https://flagsapi.com/KZ/shiny/32.png);
+}
