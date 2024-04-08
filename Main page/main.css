@@ -48,10 +48,16 @@ a{
 
 .menu{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.lang-menu {
+    margin-top: 25px;
+    position: relative;
+    height: 30px;
 }
 
 .selected-lang{
@@ -66,13 +72,9 @@ a{
     display: block;
     width: 32px;
     height: 32px;
+    margin-right: 10px;
     background-image: url(https://flagsapi.com/KZ/flat/32.png);
     align-items: center;
-}
-
-.lang-menu {
-    margin-top: 25px;
-    position: relative;
 }
 
 .lang-menu ul{
@@ -125,4 +127,10 @@ a{
 
 .lang-menu:hover ul{
     display: block;
+}
+
+.dark{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    transition: 0.5s;
 }
