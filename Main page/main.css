@@ -1,24 +1,25 @@
-body{
+.body{
     margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header{
     margin: 0 auto;
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     border: 1px solid red;
     background-color: #f2f2f2;
-}
-
-.main-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    padding: 10px 10px;
 }
 
 .mainPageLogo{
@@ -34,55 +35,70 @@ body{
 }
 
 .mainPageProfileLogo{
+    border-radius: 50px;
     max-width: 100px;
     max-height: 100px;
 }
 
 .mainPageProfileLogo img{
     border-radius: 50px;
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 100px;
+    max-height: 100px;
 }
 
-
-.selected-language{
+.menu{
     display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.selected-lang{
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
     cursor: pointer;
 }
 
-.selected-language:before{
+.selected-lang:before{
     content: '';
     display: block;
     width: 32px;
     height: 32px;
-    background-image: url(https://flagsapi.com/KZ/shiny/32.png);
+    background-image: url(https://flagsapi.com/KZ/flat/32.png);
+    align-items: center;
 }
 
-.dropdown-menu ul{
-    margin: 0;
+.lang-menu {
+    margin-top: 25px;
+    position: relative;
+}
+
+.lang-menu ul{
+    margin: 0 auto;
     padding: 0;
     background-color: #fff;
     border: 1px solid #f8f8f8;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
 }
 
-.dropdown-menu ul li{
+.lang-menu ul li{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
 }
 
-.dropdown-menu ul li a{
-    width: 140px;
+.lang-menu ul li a{
+    width: 125px;
     display: block;
     padding: 5px 10px;
 }
 
-.selected-language ul li a:before{
+.lang-menu ul li a:before{
     content: '';
     display: inline-block;
     width: 32px;
@@ -91,10 +107,22 @@ body{
     margin-right: 10px;
 }
 
-.dropdown-menu ul li a:hover{
+.lang-menu ul li a:hover{
     background-color: #f2f2f2;
 }
 
 .kz:before{
-    background-image: url(https://flagsapi.com/KZ/shiny/32.png);
+    background-image: url(https://flagsapi.com/KZ/flat/32.png);   
+}
+
+.ru:before{
+    background-image: url(https://flagsapi.com/RU/flat/32.png);
+}
+
+.en:before{
+    background-image: url(https://flagsapi.com/US/flat/32.png);
+}
+
+.lang-menu:hover ul{
+    display: block;
 }
