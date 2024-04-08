@@ -4,6 +4,7 @@
 
 *{
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 a{
@@ -57,7 +58,7 @@ a{
 .lang-menu {
     margin-top: 25px;
     position: relative;
-    height: 30px;
+    height: 40px;
 }
 
 .selected-lang{
@@ -132,5 +133,4 @@ a{
 .dark{
     background-color: rgb(50, 50, 50);
     color: white;
-    transition: 0.5s;
 }
