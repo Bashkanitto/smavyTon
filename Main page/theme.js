@@ -20,3 +20,10 @@ checkbox.addEventListener("click", function () {
 
   body.classList.toggle("dark");
 });
+
+
+const click = document.getElementById('click');
+
+click.addEventListener('click', function(event){
+  window.location.href = '../film page/film.html'
+})
