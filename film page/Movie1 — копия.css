@@ -62,6 +62,14 @@ header{
     background-color: brown;
 }
 
+.trailerV{
+    width: 50vh;
+}
+
+.pg-13{
+    width: 72px;
+}
+
 .filmInformation{
     display: flex;
     flex-direction: column;
@@ -70,22 +78,14 @@ header{
     gap: 35px;
 }
 
-table{
-    gap: 10px;
-    
+.tables{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
-.Back{
-    position: absolute;
-    left: 159vh;
+.trailer{
+    position: fixed;
+    left: 140vh;
     top: 11vh;
-
-    background-color: brown;
-    color: black;
-    height: 60px;
-    width: 250px;
-    
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
