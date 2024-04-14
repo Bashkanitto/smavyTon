@@ -22,8 +22,15 @@ checkbox.addEventListener("click", function () {
 });
 
 
-const click = document.getElementById('click');
+const film = document.getElementById('film');
 
-click.addEventListener('click', function(event){
+film.addEventListener('click', function(event){
   window.location.href = '../film page/film.html'
+})
+
+
+const ticket = document.getElementById('ticket');
+
+ticket.addEventListener('click', function(event){
+  window.location.href = '../at.html'
 })
