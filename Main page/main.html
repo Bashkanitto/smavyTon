@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="header">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="pictures/Marvel Studios - IntroLogo New Version (2016)  HD 1080p 60fps.mp4" type="video/mp4">
+    </video>
+
+    <header class="header">
         <div class="mainPageLogo">
             <img src="pictures/mainPageLogo.jpeg" alt="mainPageLogo">
         </div>
 
         <nav>
             <div class="menu">
-
 		        <input type="checkbox" id="checkbox">
 
                 <div class="lang-menu">
@@ -29,19 +32,29 @@
                     </ul>
                 </div>
                 
+                <div class="profile-dropdown">
+                    <div class="mainPageProfileLogo">
+                        <img src="pictures/mainPageProfileLogo.jpeg" alt="mainPageProfileLogo">
+                    </div>
 
-                <div class="mainPageProfileLogo">
-                    <img src="pictures/mainPageProfileLogo.jpeg" alt="mainPageProfileLogo">
+                    <ul>
+                        <li><a href="">Жеке парақша</a></li>
+                        <li><a href="">Параметрлер</a></li>
+                        <li><a href="">Шығу</a></li>
+                    </ul>
                 </div>
             </div>
 
         </nav>
-    </div>
+    </header>
 
-    <div class="section">
-        <p>Section</p>
+    <div class="content">
+        <a id="film">Фильм беті</a>
+        <a id="ticket">Билет беті</a>
     </div>
 
     <script src="theme.js"></script>
+    <script src="profile.js"></script>
+    <script src="translations.js"></script>
 </body>
 </html>
