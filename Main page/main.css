@@ -216,7 +216,7 @@ a{
     font-size: 100px;
     margin-top: 0;
     cursor: pointer;
-    font-family: 'Marvel-Regular';
+    font-family: 'CustomFont';
 }
 
 #film:hover{
@@ -231,7 +231,7 @@ a{
     font-size: 100px;
     margin: 0;
     cursor: pointer;
-    font-family: 'Marvel-Regular';
+    font-family: 'CustomFont';
 }
 
 #ticket:hover{
