@@ -63,7 +63,8 @@ p {
 }
 
 a {
-    color: var(--main-color);
+
+
     font-size: 14px;
     margin: 15px 0;
 }
@@ -282,4 +283,6 @@ input {
 ::-webkit-scrollbar-track {
     background-color: var(--bg-color);
     width: 10px;
+
 }
+
