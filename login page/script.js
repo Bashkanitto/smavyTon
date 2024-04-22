@@ -11,7 +11,7 @@ signInButton.addEventListener('click', () => {
 })
 
 
-localStorage
+
 
 
 /* const checkbox = document.getElementById("checkbox");
@@ -46,3 +46,4 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         event.preventDefault(); // Предотвращаем отправку формы
     }
 }); 
+
